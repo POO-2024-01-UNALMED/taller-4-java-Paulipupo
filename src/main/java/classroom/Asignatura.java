@@ -2,10 +2,10 @@ package classroom;
 
 public class Asignatura {
 
-    String nombre;
-    private int codigoInterno;
-    int codigoExterno;
-    private Tipo tipo;
+	public String nombre;
+    public int codigoInterno;
+    public int codigoExterno;
+    public Tipo tipo;
 
     public Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);

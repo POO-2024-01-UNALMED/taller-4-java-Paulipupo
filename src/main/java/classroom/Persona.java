@@ -2,9 +2,9 @@ package classroom;
 
 public class Persona {
 
-    final long cedula;
-    private String nombre;
-    private static int totalPersonas;
+	public final long cedula;
+    public String nombre;
+    public static int totalPersonas;
     
     static {
         totalPersonas = 0;
